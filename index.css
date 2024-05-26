@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+    background-color: #f3e5d8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.img{
+    background-image: url(./assets/images/image-omelette.jpeg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.a1{
+    width: 90%;
+    height: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff7fc;
+}
+
+.a11{
+    font-size: 15px;
+    color: #65233f;
+}
+
+.a1 > ul > li{
+    margin-top: 5px;
+}
+
+li{
+    margin-left: 15px;
+}
+
+.sect1{
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(158, 154, 154);
+}
+
+h3{
+    font-size: 20px;
+    color: #854836;
+}
+
+ul, ol{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+ li{
+    margin-bottom: 5px;
+}
+
+.sect3{
+    border: none;
+}
+
+.sect3 > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table{
+    padding: 10px;
+}
+
+.b1{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid rgb(158, 154, 154);
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.left{
+    margin-left: 20px;
+}
+
+span{
+    margin-left: 172px;
+    color: #65233f;
+}
+
+.left2{
+    margin-left: 185px
+}
+
+.left3{
+    margin-left: 180px;
+}
+
+.left4{
+    margin-left: 200px;
+}
+.b2{
+    border: none;
+}
