@@ -129,3 +129,9 @@ span{
 .b2{
     border: none;
 }
+
+@media  (max-width:475px) {
+    .content{
+        width: 300px;
+    }
+}
